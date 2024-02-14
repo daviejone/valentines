@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Additional styles for customization */
+    width: 150px; /* Set a width to define the button's horizontal space */
+    height: 50px; /* Set a height to define the button's vertical space */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: #fff; /* Set a background color */
+    color: #000; /* Set a text color */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Indicate clickable behavior */
+    margin: 20px auto; /* Center the button within its container */
+  }
+
+.letter-container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    line-height: 1.5;
+}
+
+.closing {
+    text-align: right;
+    margin-top: 20px;
+}
